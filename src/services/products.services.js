@@ -64,7 +64,6 @@ export const getProductByIdService = async (id) => {
       try {
         console.log("getProductByIdService: buscando", id);
         const product = await obtenerProducto(id);
-        //console.log("getProductByIdService: producto encontrado", product);
         res(product);
       } catch (error) {
         console.log("getProductByIdService error:", error);

@@ -16,7 +16,6 @@ export const addProduct = async (req, res) => {
     }
 }
 
-//ver si anda
 export const deleteProduct = async (req, res) => {
     try {
         const id = req.params.id;
